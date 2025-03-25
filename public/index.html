@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Connect 4 Game</h1>
+    <button id="start-btn">Start Game</button>
+    <div id="game-container">
+        <div id="grid-container"></div>
+        <div id="footer">Aniswar's Connect 4 Game</div>
+    </div>
+	<div id="turn-box">
+		<span id="turn-text">Player 1's Turn</span>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
