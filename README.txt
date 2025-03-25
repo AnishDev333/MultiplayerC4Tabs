@@ -2,7 +2,8 @@
 
 ## Overview
 This is an online multiplayer Connect 4 game that allows two players to play together in real-time through a web browser.
-Please find the statements with ******* on either side if you are only looking for commands to run to test the game.
+
+----------PLEASE FIND STATEMENTS WITHIN BOXES FOR COMMANDS TO RUN THE GAME FROM THE DIRECTORY TERMINAL(There are 3 commands in boxes).----------
 
 ## Project Structure
 ```
@@ -25,19 +26,39 @@ MWT/
 ### 1. Project Setup
 ```bash
 # Navigate to project directory
-cd MWT
+cd MWT (this was the command for me this changes depending on where you extract or git pull)
 
 # Initialize npm project
-					*******"npm init -y"******* [command 1]
+
+
+ ______________________________________________________________
+|							                                                 |
+|			npm init -y			                                         |
+|______________________________________________________________|
+
+					
 
 # Install required dependencies
-					*******"npm install express socket.io"*******[command 2]
-```
+
+
+ ______________________________________________________________
+|							                                                 |
+|	      npm install express socket.io	                 	       |
+|______________________________________________________________|
+
+					
 
 ### 2. Start the Server
 ```bash
 # Launch the game server
-					*******"node server.js"*******[command 3]
+
+
+ ______________________________________________________________
+|							                                                 |
+|			node server.js			                                     |
+|______________________________________________________________|
+
+					
 ```
 You should see a message: "Server running on port 3000"
 
@@ -87,8 +108,7 @@ You should see a message: "Server running on port 3000"
 - Game Logic: Implemented in client-side and server-side JavaScript
 
 ## Contributing
-Feel free to fork the repository and submit pull requests for improvements!
 
-## License
-[Add your license information here]
-```
+https://github.com/AnishDev333/MultiplayerC4Tabs
+
+All files are also available in the above mentions GIT repository.
