@@ -32,8 +32,8 @@ cd MWT (this was the command for me this changes depending on where you extract 
 
 
  ______________________________________________________________
-|							                                                 |
-|			npm init -y			                                         |
+|					                       |
+|			npm init -y			       |
 |______________________________________________________________|
 
 					
@@ -42,8 +42,8 @@ cd MWT (this was the command for me this changes depending on where you extract 
 
 
  ______________________________________________________________
-|							                                                 |
-|	      npm install express socket.io	                 	       |
+|					                       |
+|	      npm install express socket.io	               |  
 |______________________________________________________________|
 
 					
@@ -54,8 +54,8 @@ cd MWT (this was the command for me this changes depending on where you extract 
 
 
  ______________________________________________________________
-|							                                                 |
-|			node server.js			                                     |
+|							       |
+|			node server.js			       |
 |______________________________________________________________|
 
 					
